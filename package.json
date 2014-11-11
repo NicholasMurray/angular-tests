@@ -17,7 +17,7 @@
     "karma-junit-reporter": "^0.2.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/karma/bin/karma start karma.conf.js"
   },
   "author": "Nicholas Murray",
   "license": "ISC"
